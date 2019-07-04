@@ -1,0 +1,11 @@
+#surveySection {
+    padding-left: 7.5%;
+    padding-top: 3.5%;
+    padding-right: 7.5%;
+    align-content: center;
+    background: blueviolet;
+}
+
+#surveyContent {
+    background: violet;
+}
