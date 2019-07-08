@@ -18,171 +18,167 @@
     <div class="ui fluid card" id="surveySection">
         <div class="content" id="surveyContent">
             <h2 class="ui header">Friend Finder Survey</h2>
-            <p></p>
-            <p></p>
-            <hr />
-            <div class="row">
+            <form class="ui form">
+                <div class="required field">
+                    <label>First And Last Name (Required)</label>
+                    <div class="ui fluid icon input">
+                        <input type="text" placeholder="John Smith" id="name">
+                    </div>
+                    <form class="ui form">
+                        <div class="required field">
+                            <label>Photo/Image Link (Required)</span></label>
+                            <div class="ui fluid icon input">
+                                <input type="text" placeholder="jpeg | jpg | gif | png" id="photo">
+                            </div>
+                            <div class="alert alert-danger alert-dismissible fade show text-center" style="display:none"
+                                role="alert">
+                                Must be a valid Image url! Valid image types are: jpeg | jpg | gif | png
+                            </div>
+                            <div class="form-group">
+                                <h5>QUESTION 1</h5>
+                                <label for="quest1">It is often difficult for you to relate to other people’s
+                                    feelings.</label>
+                                <select class="form-control col-3 inputs" id="q1">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h5>QUESTION 2</h5>
+                                <label for="quest2">People can rarely upset you.</label>
+                                <select class="form-control col-3 inputs" id="q2">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h5>QUESTION 3</h5>
+                                <label for="quest3">In a discussion, truth should be more important than people’s
+                                    sensitivities.</label>
+                                <select class="form-control col-3 inputs" id="q3">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h5>QUESTION 4</h5>
+                                <label for="quest4">You rarely do something just out of sheer curiosity.</label>
+                                <select class="form-control col-3 inputs" id="q4">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h5>QUESTION 5</h5>
+                                <label for="quest5">You rarely get carried away by fantasies and ideas.</label>
+                                <select class="form-control col-3 inputs" id="q5">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h5>QUESTION 6</h5>
+                                <label for="quest6">
+                                    You find it easy to stay relaxed and focused even when there is some
+                                    pressure.
+                                </label>
+                                <select class="form-control col-3 inputs" id="q6">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h5>QUESTION 7</h5>
+                                <label for="quest7">
+                                    You think that everyone’s views should be respected regardless of whether they are
+                                    supported by facts or not.</label>
+                                <select class="form-control col-3 inputs" id="q7">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h5>QUESTION 8</h5>
+                                <label for="quest8">
+                                    Generally speaking, you rely more on your experience than your imagination.</label>
+                                <select class="form-control col-3 inputs" id="q8">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h5>QUESTION 9</h5>
+                                <label for="quest9">
+                                    You feel more energetic after spending time with a group of people.</label>
+                                <select class="form-control col-3 inputs" id="q9">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <h5>QUESTION 10</h5>
+                                <label for="quest10">Your mind is always buzzing with unexplored ideas and
+                                    plans.</label>
+                                <select class="form-control col-3 inputs" id="q10">
+                                    <option value="">Select an Option</option>
+                                    <option value="1">1 (Strongly Disagree)</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5 (Strongly Agree)</option>
+                                </select>
+                            </div>
 
-                <div class="col-10 font-weight-bold">
-
-                    <form role="form">
-                        <div class="form-group">
-                            <label for="name">First And Last Name <span class="text-danger">(Required)</span></label>
-                            <input type="text" class="form-control" id="name" placeholder="Full Name" required />
-                        </div>
-                        <div class="form-group">
-                            <label for="photo">Link to a Photo/Image <span class="text-danger">(Required)</span></label>
-                            <input type="text" class="form-control" id="photo" placeholder="Enter image Web url here"
-                                required />
-                        </div>
-                        <div class="alert alert-danger alert-dismissible fade show text-center" style="display:none"
-                            role="alert">
-                            Must be a valid Image url! Valid image types are: jpeg | jpg | gif | png
-                        </div>
-                        <div class="form-group">
-                            <h5>QUESTION 1</h5>
-                            <label for="quest1">It is often difficult for you to relate to other people’s
-                                feelings.</label>
-                            <select class="form-control col-3 inputs" id="q1">
-                                <option value="">Select an Option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <h5>QUESTION 2</h5>
-                            <label for="quest2">People can rarely upset you.</label>
-                            <select class="form-control col-3 inputs" id="q2">
-                                <option value="">Select an Option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <h5>QUESTION 3</h5>
-                            <label for="quest3">In a discussion, truth should be more important than people’s
-                                sensitivities.</label>
-                            <select class="form-control col-3 inputs" id="q3">
-                                <option value="">Select an Option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <h5>QUESTION 4</h5>
-                            <label for="quest4">You rarely do something just out of sheer curiosity.</label>
-                            <select class="form-control col-3 inputs" id="q4">
-                                <option value="">Select an Option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <h5>QUESTION 5</h5>
-                            <label for="quest5">You rarely get carried away by fantasies and ideas.</label>
-                            <select class="form-control col-3 inputs" id="q5">
-                                <option value="">Select an Option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <h5>QUESTION 6</h5>
-                            <label for="quest6">
-                                You find it easy to stay relaxed and focused even when there is some
-                                pressure.
-                            </label>
-                            <select class="form-control col-3 inputs" id="q6">
-                                <option value="">Select an Option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <h5>QUESTION 7</h5>
-                            <label for="quest7">
-                                You think that everyone’s views should be respected regardless of whether they are
-                                supported by facts or not.</label>
-                            <select class="form-control col-3 inputs" id="q7">
-                                <option value="">Select an Option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <h5>QUESTION 8</h5>
-                            <label for="quest8">
-                                Generally speaking, you rely more on your experience than your imagination.</label>
-                            <select class="form-control col-3 inputs" id="q8">
-                                <option value="">Select an Option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <h5>QUESTION 9</h5>
-                            <label for="quest9">
-                                You feel more energetic after spending time with a group of people.</label>
-                            <select class="form-control col-3 inputs" id="q9">
-                                <option value="">Select an Option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <h5>QUESTION 10</h5>
-                            <label for="quest10">Your mind is always buzzing with unexplored ideas and plans.</label>
-                            <select class="form-control col-3 inputs" id="q10">
-                                <option value="">Select an Option</option>
-                                <option value="1">1 (Strongly Disagree)</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5 (Strongly Agree)</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-block btn-success" id="submit">
-                                <i class="far fa-check-square"> </i> Submit
-                            </button>
-                        </div>
-                        <div class="alert alert-danger alert-dismissible fade show text-center" style="display:none"
-                            role="alert">
-                            <strong>Please be sure to fill out all of the questions before submitting!</strong>
-                        </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-block btn-success" id="submit">
+                                    <i class="far fa-check-square"> </i> Submit
+                                </button>
+                            </div>
+                            <div class="alert alert-danger alert-dismissible fade show text-center" style="display:none"
+                                role="alert">
+                                <strong>Please be sure to fill out all of the questions before submitting!</strong>
+                            </div>
                     </form>
                 </div>
-            </div>
         </div>
-        <!-- ending div for survey content -->
+    </div>
+    <!-- ending div for survey content -->
     </div>
     <!-- ending div for the raised padded container segment -->
     <!--Results modal to display match-->

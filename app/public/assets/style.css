@@ -1,8 +1,8 @@
 body {
-    background: blueviolet;
+    background-image: url("../assets/images/background.jpg");;
 }
 #topSection {
-    background: violet;
+    background: whitesmoke;
     /* padding-top: 6.5%; */
 }
  
@@ -12,8 +12,13 @@ body {
     font-size: 3.5rem;
 }
  #foongus {
-     padding-top: 15.5%;
+     padding-top: 1.5%;
+     padding-bottom: 10%;
      padding-left: 40%;
+     background: black;
+     margin-top: 15.5%; 
+     color: white; 
+     margin-bottom: 2%;
  }
 
  a {
@@ -21,10 +26,10 @@ body {
  }
 
  a:hover {
-     color: black;
+     color: 3339FF;
  }
- /*eventually get my name copyright on bottom center
-  h3 {
-     clear: both;
-     padding-left: -30%;
- } */
+
+ 
+
+ 
+ 

@@ -1,11 +1,12 @@
+
 #surveySection {
     padding-left: 7.5%;
     padding-top: 3.5%;
     padding-right: 7.5%;
     align-content: center;
-    background: blueviolet;
+    background-image: url("../assets/images/background.jpg");
 }
 
 #surveyContent {
-    background: violet;
+    background: whitesmoke;
 }
